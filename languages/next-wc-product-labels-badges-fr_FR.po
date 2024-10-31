@@ -1,0 +1,731 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Next WC Product Labels and Badges\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-31 17:15+0100\n"
+"PO-Revision-Date: 2022-10-31 17:16+0100\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3\n"
+"X-Domain: trans_next_watermark\n"
+"X-Poedit-Basepath: ../includes\n"
+"X-Poedit-KeywordsList: _e;__;esc_html_e;esc_html__\n"
+"X-Poedit-SearchPath-0: wcplb-cat-colors.inc.php\n"
+"X-Poedit-SearchPath-1: wcplb-align-shop.inc.php\n"
+"X-Poedit-SearchPath-2: wcplb-badge-font-textbox.inc.php\n"
+"X-Poedit-SearchPath-3: wcplb-badge-newness.inc.php\n"
+"X-Poedit-SearchPath-4: wcplb-badge-font-image.inc.php\n"
+"X-Poedit-SearchPath-5: wcplb-badge-quantity.inc.php\n"
+"X-Poedit-SearchPath-6: wcplb-badge-bestselling.inc.php\n"
+"X-Poedit-SearchPath-7: wcplb-select-label.inc.php\n"
+"X-Poedit-SearchPath-8: wcplb-acp-page.php\n"
+"X-Poedit-SearchPath-9: wcplb-functions.php\n"
+"X-Poedit-SearchPath-10: wcplb-draw-image.php\n"
+"X-Poedit-SearchPath-11: wcplb-show-image-badge.inc.php\n"
+"X-Poedit-SearchPath-12: wcplb-badge-flip-text.inc.php\n"
+"X-Poedit-SearchPath-13: wcplb-select-badge.inc.php\n"
+"X-Poedit-SearchPath-14: wcplb-align-main.inc.php\n"
+"X-Poedit-SearchPath-15: wcplb-align-second.inc.php\n"
+
+#: wcplb-acp-page.php:315 wcplb-functions.php:92
+msgid "General Settings"
+msgstr "Réglages généraux"
+
+#: wcplb-acp-page.php:316 wcplb-functions.php:93
+msgid "Set labels"
+msgstr "Définir les étiquettes"
+
+#: wcplb-acp-page.php:317 wcplb-functions.php:94
+msgid "Set badges"
+msgstr "Définir les badges"
+
+#: wcplb-acp-page.php:328 wcplb-select-label.inc.php:14
+msgid "Labels"
+msgstr "Etiquettes"
+
+#: wcplb-acp-page.php:331
+msgid "Type of label"
+msgstr "Type d'étiquette"
+
+#: wcplb-acp-page.php:332
+msgid "Text box labels (Do NOT need GD library)"
+msgstr "Etiquettes de type texte (N'utilise pas la librairie GD)"
+
+#: wcplb-acp-page.php:333
+msgid "Image labels"
+msgstr "Etiquettes de type image"
+
+#: wcplb-acp-page.php:337
+msgid "Show labels"
+msgstr "Afficher les étiquettes"
+
+#: wcplb-acp-page.php:338
+msgid "Display label on product page"
+msgstr "Afficher l'étiquette sur la page produit"
+
+#: wcplb-acp-page.php:339
+msgid "Display label on shop page"
+msgstr "Afficher l'étiquette sur la page boutique"
+
+#: wcplb-acp-page.php:343 wcplb-select-badge.inc.php:18
+msgid "Badges"
+msgstr "Badges"
+
+#: wcplb-acp-page.php:346
+msgid "Type of badge"
+msgstr "Type de badge"
+
+#: wcplb-acp-page.php:347
+msgid "Text box badges (Do NOT need GD library)"
+msgstr "Badges de type texte (N'utilise pas la librairie GD)"
+
+#: wcplb-acp-page.php:348
+msgid "Image badges"
+msgstr "Badges de type image"
+
+#: wcplb-acp-page.php:352
+msgid "Show badges"
+msgstr "Afficher les badges"
+
+#: wcplb-acp-page.php:353
+msgid "Display badges on product page"
+msgstr "Afficher les badges sur la page produit"
+
+#: wcplb-acp-page.php:354
+msgid "Display badges on shop page"
+msgstr "Afficher les badges sur la page boutique"
+
+#: wcplb-acp-page.php:358 wcplb-acp-page.php:564 wcplb-acp-page.php:830
+msgid "Save"
+msgstr "Enregistrer"
+
+#: wcplb-acp-page.php:373
+msgid "Label settings"
+msgstr "Réglages des étiquettes"
+
+#: wcplb-acp-page.php:378
+msgid "Label color"
+msgstr "Couleur de l'étiquette"
+
+#: wcplb-acp-page.php:381
+msgid "Background color"
+msgstr "Couleur de fond"
+
+#: wcplb-acp-page.php:383
+msgid "Pattern color"
+msgstr "Couleur de motif"
+
+#: wcplb-acp-page.php:388
+msgid "Label opacity"
+msgstr "Opacité de l'étiquette"
+
+#: wcplb-acp-page.php:389 wcplb-acp-page.php:696
+msgid "Set the opacity"
+msgstr "Définir l'opacité"
+
+#: wcplb-acp-page.php:393 wcplb-acp-page.php:700
+msgid "From 0% (fully transparent) to 100% (fully opaque)"
+msgstr "De 0% (complétement transparent) à 100% (complétement opaque)"
+
+#: wcplb-acp-page.php:397 wcplb-badge-font-image.inc.php:2 wcplb-badge-font-textbox.inc.php:2
+msgid "Font"
+msgstr "Police"
+
+#: wcplb-acp-page.php:400 wcplb-badge-font-textbox.inc.php:5
+msgid "Serif"
+msgstr "Serif"
+
+#: wcplb-acp-page.php:401 wcplb-badge-font-textbox.inc.php:6
+msgid "Sans serif"
+msgstr "Sans serif"
+
+#: wcplb-acp-page.php:402 wcplb-badge-font-textbox.inc.php:7
+msgid "Cursive"
+msgstr "Cursive"
+
+#: wcplb-acp-page.php:403 wcplb-badge-font-textbox.inc.php:8
+msgid "Fantasy"
+msgstr "Fantaisie"
+
+#: wcplb-acp-page.php:404 wcplb-badge-font-textbox.inc.php:9
+msgid "Monospace"
+msgstr "Monospace"
+
+#: wcplb-acp-page.php:410 wcplb-acp-page.php:713
+msgid "Font color"
+msgstr "Couleur de police"
+
+#: wcplb-acp-page.php:415 wcplb-acp-page.php:723
+msgid "Shop page"
+msgstr "Page boutique"
+
+#: wcplb-acp-page.php:418 wcplb-acp-page.php:432
+msgid "Label alignment"
+msgstr "Alignement du label"
+
+#: wcplb-acp-page.php:419 wcplb-acp-page.php:433 wcplb-acp-page.php:777
+msgid "Left"
+msgstr "Gauche"
+
+#: wcplb-acp-page.php:420 wcplb-acp-page.php:434 wcplb-acp-page.php:778
+msgid "Right"
+msgstr "Droite"
+
+#: wcplb-acp-page.php:421 wcplb-acp-page.php:436 wcplb-acp-page.php:731 wcplb-acp-page.php:780 wcplb-align-main.inc.php:3 wcplb-align-second.inc.php:3
+#: wcplb-align-shop.inc.php:3
+msgid "Offset X"
+msgstr "Décalage en X"
+
+#: wcplb-acp-page.php:422 wcplb-acp-page.php:437 wcplb-acp-page.php:732 wcplb-acp-page.php:781 wcplb-align-main.inc.php:4 wcplb-align-second.inc.php:4
+#: wcplb-align-shop.inc.php:4
+msgid "Offset Y"
+msgstr "Décalage en Y"
+
+#: wcplb-acp-page.php:428 wcplb-acp-page.php:773
+msgid "Product page"
+msgstr "Page produit"
+
+#: wcplb-acp-page.php:435 wcplb-acp-page.php:779
+msgid "Right of the product page"
+msgstr "Droite de la page produit"
+
+#: wcplb-acp-page.php:441
+msgid "Main content"
+msgstr "Contenu principal"
+
+#: wcplb-acp-page.php:442
+msgid "Fisrt information on labels"
+msgstr "Information principale sur l'étiquette"
+
+#: wcplb-acp-page.php:443
+msgid "Percent discount"
+msgstr "Pourcentage de réduction"
+
+#: wcplb-acp-page.php:444
+msgid "Total discount"
+msgstr "Réduction totale"
+
+#: wcplb-acp-page.php:450
+msgid "Complementary content"
+msgstr "Contenu complémentaire"
+
+#: wcplb-acp-page.php:451
+msgid "Show secondary information"
+msgstr "Afficher l'information secondaire"
+
+#: wcplb-acp-page.php:574 wcplb-acp-page.php:585 wcplb-acp-page.php:596 wcplb-acp-page.php:607 wcplb-acp-page.php:618 wcplb-acp-page.php:629
+msgid "New"
+msgstr "Nouveauté"
+
+#: wcplb-acp-page.php:575 wcplb-acp-page.php:586 wcplb-acp-page.php:597 wcplb-acp-page.php:608 wcplb-acp-page.php:619 wcplb-acp-page.php:630
+msgid "Featured"
+msgstr "Produit phare"
+
+#: wcplb-acp-page.php:576 wcplb-acp-page.php:587 wcplb-acp-page.php:598 wcplb-acp-page.php:609 wcplb-acp-page.php:620 wcplb-acp-page.php:631
+msgid "Sold out"
+msgstr "Vendu"
+
+#: wcplb-acp-page.php:577 wcplb-acp-page.php:588 wcplb-acp-page.php:599 wcplb-acp-page.php:610 wcplb-acp-page.php:621 wcplb-acp-page.php:632
+#: wcplb-badge-bestselling.inc.php:2
+msgid "Best selling"
+msgstr "Meilleures ventes"
+
+#: wcplb-acp-page.php:578 wcplb-acp-page.php:589 wcplb-acp-page.php:600 wcplb-acp-page.php:611 wcplb-acp-page.php:622 wcplb-acp-page.php:633
+#: wcplb-badge-quantity.inc.php:2
+msgid "Quantity"
+msgstr "Quantité"
+
+#: wcplb-acp-page.php:579 wcplb-acp-page.php:590 wcplb-acp-page.php:601 wcplb-acp-page.php:612 wcplb-acp-page.php:623 wcplb-acp-page.php:634
+msgid "Categories"
+msgstr "Categories"
+
+#: wcplb-acp-page.php:673
+msgid "Badge settings"
+msgstr "Réglages des badges"
+
+#: wcplb-acp-page.php:679
+msgid "Activate this badge"
+msgstr "Activer ce badge"
+
+#: wcplb-acp-page.php:695
+msgid "Badge opacity"
+msgstr "Opacité du badge"
+
+#: wcplb-acp-page.php:726 wcplb-acp-page.php:776
+msgid "Badge alignment"
+msgstr "Alignement du badge"
+
+#: wcplb-acp-page.php:727
+msgid "Top left"
+msgstr "En haut à gauche"
+
+#: wcplb-acp-page.php:728
+msgid "Top right"
+msgstr "En haut à droite"
+
+#: wcplb-acp-page.php:729
+msgid "Bottom left"
+msgstr "En bas à gauche"
+
+#: wcplb-acp-page.php:730
+msgid "Bottom right"
+msgstr "En bas à droite"
+
+#: wcplb-acp-page.php:737
+msgid "Better aligned Top left with X = -4 and Y around 200"
+msgstr "Alignement conseillé en haut à gauche avec X = -4 et Y autour de 200"
+
+#: wcplb-acp-page.php:741
+msgid "Better aligned Top right with X = -4 and Y around 200"
+msgstr "Alignement conseillé en haut à droite avec X = -4 et Y autour de 200"
+
+#: wcplb-acp-page.php:745
+msgid "Better aligned Top right with X = 5 and Y = -5"
+msgstr "Alignement conseillé en haut à droite avec X = 5 et Y = -5"
+
+#: wcplb-acp-page.php:748 wcplb-acp-page.php:754 wcplb-acp-page.php:757 wcplb-acp-page.php:760
+msgid "Better aligned Top right with X = -5 and Y = -5"
+msgstr "Alignement conseillé en haut à droite avec X = -5 et Y = -5"
+
+#: wcplb-acp-page.php:751
+msgid "Better aligned Top left with X = 100 and Y = -5"
+msgstr "Alignement conseillé en haut à gauche avec X = 100 et Y = -5"
+
+#: wcplb-acp-page.php:763
+msgid "Better aligned Top right with X = -5 and Y = 0"
+msgstr "Alignement conseillé en haut à droite avec X = -5 et Y = 0"
+
+#: wcplb-acp-page.php:766
+msgid "Better aligned Top right with X = 0 and Y = -10"
+msgstr "Alignement conseillé en haut à droite avec X = 0 et Y = -10"
+
+#: wcplb-acp-page.php:786
+msgid "Better aligned Left with X = -4 and Y around 400"
+msgstr "Alignement conseillé à gauche avec X = -4 et Y autour de 400"
+
+#: wcplb-acp-page.php:790
+msgid "Better aligned Right with X = -4 and Y around 400"
+msgstr "Alignement conseillé à droite avec X = -4 et Y autour de 400"
+
+#: wcplb-acp-page.php:794
+msgid "Better aligned Right with X = 10 and Y from 0 and more"
+msgstr "Alignement conseillé à droite avec X = 10 et Y entre 0 et plus"
+
+#: wcplb-acp-page.php:797 wcplb-acp-page.php:803 wcplb-acp-page.php:806
+msgid "Better aligned Right with X = -1 and Y = -1"
+msgstr "Alignement conseillé à droite avec X = -1 et Y = -1"
+
+#: wcplb-acp-page.php:800
+msgid "Better aligned Left with X = 100 and Y = -5"
+msgstr "Alignement conseillé à gauche avec X = 100 et Y = -5"
+
+#: wcplb-acp-page.php:809 wcplb-acp-page.php:812
+msgid "Better aligned Right with X = 0 and Y = 0"
+msgstr "Alignement conseillé à droite avec X = 0 et Y = 0"
+
+#: wcplb-acp-page.php:815
+msgid "Better aligned Right of the product page with X = 0 and Y = 0"
+msgstr "Alignement conseillé à droite de la page produit avec X = 0 et Y = 0"
+
+#: wcplb-align-main.inc.php:2 wcplb-align-second.inc.php:2 wcplb-align-shop.inc.php:2
+msgid "Text alignment"
+msgstr "Alignement du texte"
+
+#: wcplb-badge-bestselling.inc.php:3
+msgid "Number of products"
+msgstr "Nombre de produits"
+
+#: wcplb-badge-bestselling.inc.php:4
+msgid "Product Ids"
+msgstr "Ids produit"
+
+#: wcplb-badge-flip-text.inc.php:2
+msgid "Text direction"
+msgstr "Direction du texte"
+
+#: wcplb-badge-flip-text.inc.php:3
+msgid "Top to bottom"
+msgstr "De haut en bas"
+
+#: wcplb-badge-flip-text.inc.php:4
+msgid "Bottom to top"
+msgstr "De bas en haut"
+
+#: wcplb-badge-font-image.inc.php:20
+msgid "Font size"
+msgstr "Taille de police"
+
+#: wcplb-badge-newness.inc.php:2
+msgid "Newness"
+msgstr "Nouveauté"
+
+#: wcplb-badge-newness.inc.php:3
+msgid "days"
+msgstr "jours"
+
+#: wcplb-badge-quantity.inc.php:3
+msgid "Displayed when less or equal than quantity"
+msgstr "Affiché si inférieur ou égal à cette quantité"
+
+#: wcplb-cat-colors.inc.php:2
+msgid "Use categories"
+msgstr "Utiliser les catégories"
+
+#: wcplb-cat-colors.inc.php:3
+msgid "Use category background colors instead of label background color"
+msgstr "Utilise les couleurs des catégories des badges au lieu de la couleur de fond"
+
+#: wcplb-cat-colors.inc.php:4
+msgid "Only for TEXT labels"
+msgstr "Ne fonctionne qu'avec les étiquettes de type TEXTE"
+
+#: wcplb-functions.php:92
+msgid "General settings"
+msgstr "Réglages généraux"
+
+#: wcplb-functions.php:272
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n'avez pas la permission suffisante pour accéder à cette page."
+
+#: wcplb-functions.php:282
+msgid "Add for free"
+msgstr "Ajoutez gratuitement"
+
+#: wcplb-functions.php:282
+msgid "Next Product Toolbox for WooCommerce"
+msgstr "Next Product Toolbox for WooCommerce"
+
+#: wcplb-functions.php:282
+msgid "to easily configure your WC products, add clouds and lists, improve SEO and much more!"
+msgstr "pour configurer facilement tous vos produits WC, ajouter des nuages et listes, améliorer le SEO et bien plus!"
+
+#: wcplb-functions.php:284
+msgid "You like this plugin?"
+msgstr "Vous aimez ce plugin?"
+
+#: wcplb-functions.php:284
+msgid "Offer me a coffee!"
+msgstr "Offrez-moi un café!"
+
+#: wcplb-functions.php:300
+msgid "YOUR Data have been saved successfully!"
+msgstr "Réglages enregistrés!"
+
+#: wcplb-functions.php:307
+msgid "Sorry, cannot do this..."
+msgstr "Désolé, impossible de réaliser cette action..."
+
+#: wcplb-functions.php:325
+msgid "Show labels is disabled on both single product and shop pages!"
+msgstr "L'affichage des étiquettes est deshabilité à la fois sur les pages produit et la page boutique!"
+
+#: wcplb-functions.php:666 wcplb-functions.php:681 wcplb-functions.php:782 wcplb-functions.php:795
+msgid "Up to -"
+msgstr "Jusqu'à -"
+
+#: wcplb-select-badge.inc.php:1
+msgid "Select badge"
+msgstr "Choix du badge"
+
+#: wcplb-select-badge.inc.php:10
+msgid "Show/Hide to select badge"
+msgstr "Montrer/Cacher pour choisir le badge"
+
+#: wcplb-select-label.inc.php:1
+msgid "Select label"
+msgstr "Choix de l'étiquette"
+
+#: wcplb-select-label.inc.php:10
+msgid "Show/Hide to select label"
+msgstr "Montrer/Cacher pour choisir l'étiquette"
+
+#~ msgid "Better aligned Left with X around 70 and Y = -10"
+#~ msgstr "Alignement conseillé à gauche avec X = 70 et Y = -10"
+
+#~ msgid "Badge color"
+#~ msgstr "Couleur du badge"
+
+#~ msgid "Badge text"
+#~ msgstr "Texte du badge"
+
+#~ msgid "Categories & labels association"
+#~ msgstr "Association des labels et catégories"
+
+#~ msgid "Empty categories"
+#~ msgstr "Catégories vides"
+
+#~ msgid "Hide categories with NO product"
+#~ msgstr "Cacher les catégories SANS produit"
+
+#~ msgid "This may be useful if you have only ONE category per product."
+#~ msgstr "XXX"
+
+#~ msgid "Hierarchy"
+#~ msgstr "Hiérarchie"
+
+#~ msgid "Show hierarchical categories"
+#~ msgstr "Montrer la hiérarchie des catégories"
+
+#~ msgid "Use category colors"
+#~ msgstr "Utiliser les couleurs de catégorie"
+
+#~ msgid "Only for TEXT label background color"
+#~ msgstr "ONLY!!"
+
+#~ msgid "Set text badge"
+#~ msgstr "Définir le texte du badge"
+
+#~ msgid "Display label on single product"
+#~ msgstr "Afficher l'étiquette sur la page produit"
+
+#~ msgid "Display badge on single product"
+#~ msgstr "Afficher le badge sur la page produit"
+
+#~ msgid "Set Label"
+#~ msgstr "Définir l'étiquette3"
+
+#~ msgid "restored image file(s) to media library"
+#~ msgstr "fichiers image restauré(s) dans la bibliothèque"
+
+#~ msgid "Watermark Text"
+#~ msgstr "Filigrane Texte"
+
+#~ msgid "Watermark Image"
+#~ msgstr "Filigrane image"
+
+#~ msgid "Backup/Restore"
+#~ msgstr "Restauration"
+
+#~ msgid "Watermark text"
+#~ msgstr "Filigrane texte"
+
+#~ msgid "E.g.: &copy; Your name"
+#~ msgstr "Ex.: &copy; Votre nom"
+
+#~ msgid "m/d/Y"
+#~ msgstr "d/m/Y"
+
+#~ msgid "Transparency"
+#~ msgstr "Transparence"
+
+#~ msgid "From 0 (completely opaque) to 127 (completely transparent)"
+#~ msgstr "De 0 (complétement opaque) à 127 (complétement transparent)"
+
+#~ msgid "Orientation"
+#~ msgstr "Orientation"
+
+#~ msgid "From 0&deg; to 360&deg;"
+#~ msgstr "De 0&deg; à 360&deg;"
+
+#~ msgid "Mosaic"
+#~ msgstr "Mosaïque"
+
+#~ msgid "Repeat the watermark text"
+#~ msgstr "Dupliquer le filigrane texte"
+
+#~ msgid "Mosaic size"
+#~ msgstr "Taille de la mosaïque"
+
+#~ msgid "None"
+#~ msgstr "Aucun"
+
+#~ msgid "Custom"
+#~ msgstr "Personnalisée"
+
+#~ msgid "Custom Mosaic size"
+#~ msgstr "Taille personnalisée"
+
+#~ msgid "Shift watermarks"
+#~ msgstr "Décaler les filigranes"
+
+#~ msgid "Negative X value relative to right side"
+#~ msgstr "Valeur négative de X relative au côté droit"
+
+#~ msgid "Negative Y value relative to bottom side"
+#~ msgstr "Valeur négative de Y relative au côté inférieur"
+
+#~ msgid "Error applying watermark!"
+#~ msgstr "Erreur en apposant le filigrane!"
+
+#~ msgid "Apply text watermark"
+#~ msgstr "Activer le filigrane de type texte"
+
+#~ msgid "Watermark image"
+#~ msgstr "Filigrane image"
+
+#~ msgid "Watermark image not found!"
+#~ msgstr "Filigrane image absent!"
+
+#~ msgid "Change Image watermark"
+#~ msgstr "Changer le filigrane image"
+
+#~ msgid "Press Apply button to see changes."
+#~ msgstr "Presser le bouton Activer pour voir les changements."
+
+#~ msgid "Upload Image watermark"
+#~ msgstr "Téléverser un filigrane image"
+
+#~ msgid "Set the orientation to 0&deg; to enable 'Opacity' and 'Fit to image' options"
+#~ msgstr "Réglez l'orientation à 0&deg; pour activer les options 'Opacité' et 'Ajuster à l'image'"
+
+#~ msgid "Set the opacity (gif & jpg only, with NO orientation)"
+#~ msgstr "Définir l'opacité (seulement pour les GIF/JPEG, sans orientation)"
+
+#~ msgid "Special effects"
+#~ msgstr "Effets spéciaux"
+
+#~ msgid "Greyscale watermark"
+#~ msgstr "Nuances de gris"
+
+#~ msgid "Negative watermark"
+#~ msgstr "Watermark négatif"
+
+#~ msgid "Position"
+#~ msgstr "Position"
+
+#~ msgid "(Use Aligment parameters below)"
+#~ msgstr "(Utilise les paramètres d'alignement)"
+
+#~ msgid "Upper center"
+#~ msgstr "En haut au centre"
+
+#~ msgid "Middle left"
+#~ msgstr "Au milieu à gauche"
+
+#~ msgid "Middle center"
+#~ msgstr "Au milieu au centre"
+
+#~ msgid "Middle right"
+#~ msgstr "Au milieu à droite"
+
+#~ msgid "Bottom center"
+#~ msgstr "En bas au centre"
+
+#~ msgid "Fit watermark to image width"
+#~ msgstr "Ajuster le filigrane à la largeur de l'image"
+
+#~ msgid "Do NOT use Offset X but Margin X parameter"
+#~ msgstr "N'utilise PAS le décalage en X mais la marge en X"
+
+#~ msgid "Fit watermark to image height"
+#~ msgstr "Ajuster le filigrane à la hauteur de l'image"
+
+#~ msgid "Do NOT use Offset Y but Margin Y parameter"
+#~ msgstr "N'utilise PAS le décalage en Y mais la marge en Y"
+
+#~ msgid "Keep aspect ratio"
+#~ msgstr "Préserver le ratio"
+
+#~ msgid "(Left and right margins around watermark)"
+#~ msgstr "Marges gauche et droite autour du filigrane)"
+
+#~ msgid "(Top and bottom margins around watermark)"
+#~ msgstr "Marges haute et basse autour du filigrane)"
+
+#~ msgid "Apply image watermark"
+#~ msgstr "Activer le filigrane de type image"
+
+#~ msgid "Backup/Restore media images"
+#~ msgstr "Sauvegarde/Restauration des images"
+
+#~ msgid "Restore"
+#~ msgstr "Restauration"
+
+#~ msgid "Backup"
+#~ msgstr "Sauvegarde"
+
+#~ msgid "Backup images before watermark"
+#~ msgstr "Sauver les images avant filigranage"
+
+#~ msgid "Stored at"
+#~ msgstr "Sauvé dans"
+
+#~ msgid "Restore only current existing images"
+#~ msgstr "Restaurer seulement les images existantes"
+
+#~ msgid "Restore all images from backup directory"
+#~ msgstr "Restaurer toutes les images du répertoire de sauvegarde"
+
+#~ msgid "Watermarking"
+#~ msgstr "Filigranage numérique"
+
+#~ msgid "Watermark automatically images when uploading in the media gallery"
+#~ msgstr "Appliquer automatiquement le(s) filigrane(s) lors du téléversement de nouvelles images"
+
+#~ msgid "Watermark types"
+#~ msgstr "Types de filigranes"
+
+#~ msgid "Select to activate text watermark, image watermark, or both"
+#~ msgstr "Activer le filigrane de type texte, image ou les deux"
+
+#~ msgid "Activate image watermark"
+#~ msgstr "Activer le filigrane de type image"
+
+#~ msgid "Image quality"
+#~ msgstr "Qualité d'image"
+
+#~ msgid "Set the image quality - Default value (-1) uses the default IJG quality value (about 75)"
+#~ msgstr "Définir la qualité d'image - Par défaut (-1) utilise la qualité IJG (environ 75)"
+
+#~ msgid "From 0 (worst quality, smaller file) to 100 (best quality, biggest file)"
+#~ msgstr "De 0 (moins bonne qualité, fichier plus petit) à 100 (meilleure qualité, fichier plus grand)"
+
+#~ msgid "Select the image types to be watermarked"
+#~ msgstr "Sélectionner les types d'images à apposer le filigrane"
+
+#~ msgid "Image sizes"
+#~ msgstr "Tailles d'image"
+
+#~ msgid "Select the image sizes to be watermarked"
+#~ msgstr "Sélectionner les tailles d'images à apposer le filigrane"
+
+#~ msgid "Post types"
+#~ msgstr "Type de posts"
+
+#~ msgid "Select the post types to be watermarked"
+#~ msgstr "Sélectionner les types de posts à apposer le filigrane"
+
+#~ msgid "Copy protection"
+#~ msgstr "Protection contre la copie"
+
+#~ msgid "Disable right click and copy content"
+#~ msgstr "Désactiver le clic droit et la copie de contenu"
+
+#~ msgid "Set Watermarks"
+#~ msgstr "Définir les filigranes"
+
+#~ msgid "Set Watermark Text"
+#~ msgstr "Définir le filigrane texte"
+
+#~ msgid "Set Backup/Restore options"
+#~ msgstr "Définir les options de sauvegarde/restauration"
+
+#~ msgid "Both image and text watermarks are disabled!"
+#~ msgstr "Les filigranes de type texte et image sont tous deux désactivés!"
+
+#~ msgid "Cannot keep aspect ratio when both 'Fit' options are selected!"
+#~ msgstr "Impossible de conserver le ratio quand les deux options 'Fit' sont selectionnées!"
+
+#~ msgid "Image format not allowed!"
+#~ msgstr "Format d'image non autorisé!"
+
+#~ msgid "Watermark image format not allowed!"
+#~ msgstr "Format de filigrane non autorisé!"
+
+#~ msgid "Watermak image"
+#~ msgstr "Filigrane image"
+
+#~ msgid "Watermak Text"
+#~ msgstr "Filigrane texte"
+
+#~ msgid "Watermak Image"
+#~ msgstr "Filigrane image"
+
+#~ msgid "none"
+#~ msgstr "Aucun"
